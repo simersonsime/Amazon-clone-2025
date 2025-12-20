@@ -7,7 +7,7 @@ import "firebase/compat/auth";
 
 // Your web app's Firebase configuration for the Firebase project you created in the Firebase console
 const firebaseConfig = {
-  apiKey: "AIzaSyAplIgXip70vuP3xBtCrIIKqvGkJen2QI0",
+  // apiKey: ,
   authDomain: "finto-56024.firebaseapp.com",
   projectId: "finto-56024",
   storageBucket: "finto-56024.appspot.com",
