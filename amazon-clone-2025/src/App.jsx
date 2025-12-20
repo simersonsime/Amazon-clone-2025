@@ -3,7 +3,6 @@ import "./App.css";
 import AppRouter from "./routes/AppRouter";
 import { Type } from "./Utility/action.type";
 import { auth } from "./Utility/firebase";
-import { DataContext } from "./components/DataProvider/DataProvider";
 
 function App() {
   // const [{ user }, dispatch] = useContext(DataContext);
