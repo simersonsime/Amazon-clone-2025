@@ -1,4 +1,4 @@
-import Layout from "../../components/Layout/Layout";
+import Layout from "../../Components/Layout/Layout";
 import styles from "./pageNotFound.module.css";
 
 function PageNotFound() {

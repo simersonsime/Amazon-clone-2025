@@ -1,8 +1,8 @@
 import React from "react";
-import Category from "../../components/Category/Category";
-import CarouselEffect from "../../components/Carousel/CarouselSlider";
-import Product from "../../components/Product/Product";
-import Layout from "../../components/Layout/Layout";
+import Category from "../../Components/Category/Category";
+import CarouselEffect from "../../Components/Carousel/CarouselSlider";
+import Product from "../../Components/Product/Product";
+import Layout from "../../Components/Layout/Layout";
 
 function Landing() {
   return (

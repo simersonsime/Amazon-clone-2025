@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
-import Layout from "../../components/Layout/Layout";
-import ProductCard from "../../components/Product/ProductCard";
+import Layout from "../../Components/Layout/Layout";
+import ProductCard from "../../Components/Product/ProductCard";
 import styles from "./payment.module.css";
-import { DataContext } from "../../components/DataProvider/DataProvider";
-import CurrencyFormat from "../../components/CurrencyFormat/CurrencyFormat";
+import { DataContext } from "../../Components/DataProvider/DataProvider";
+import CurrencyFormat from "../../Components/CurrencyFormat/CurrencyFormat";
 import { ClipLoader } from "react-spinners";
 import { useNavigate } from "react-router-dom";
 import { Type } from "../../Utility/action.type";

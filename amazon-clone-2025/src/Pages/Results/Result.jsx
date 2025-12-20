@@ -4,9 +4,9 @@ import axios from "axios";
 import { FakeStoreAPI_BaseURL } from "../../API/EndPoints";
 import styles from "./results.module.css";
 import ProductDetail from "../ProductDetail/ProductDetail";
-import Layout from "../../components/Layout/Layout";
-import Loader from "../../components/Loader/Loder";
-import ProductCard from "../../components/Product/ProductCard";
+import Layout from "../../Components/Layout/Layout";
+import Loader from "../../Components/Loader/Loder";
+import ProductCard from "../../Components/Product/ProductCard";
 function Results() {
   const { categoryName } = useParams();
   const [results, setResults] = useState([]);

@@ -1,9 +1,9 @@
 import React, { useContext, useState, useEffect } from "react";
-import Layout from "../../components/Layout/Layout";
+import Layout from "../../Components/Layout/Layout";
 import classes from "./orders.module.css";
 import { db } from "../../Utility/firebase";
-import { DataContext } from "../../components/DataProvider/DataProvider";
-import ProductCard from "../../components/Product/ProductCard";
+import { DataContext } from "../../Components/DataProvider/DataProvider";
+import ProductCard from "../../Components/Product/ProductCard";
 import { BiLoader } from "react-icons/bi";
 import moment from "moment";
 
