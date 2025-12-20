@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import Layout from "../../Components/Layout/Layout";
 import ProductCard from "../../Components/Product/ProductCard";
-import styles from "./payment.module.css";
+import styles from "./Payment.module.css";
 import { DataContext } from "../../Components/DataProvider/DataProvider";
 import CurrencyFormat from "../../Components/CurrencyFormat/CurrencyFormat";
 import { ClipLoader } from "react-spinners";
